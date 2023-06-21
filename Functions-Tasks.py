@@ -26,10 +26,19 @@ def mysum1(x,y):
 b = mysum1(5,10)
 print(b)
 '''
-# -3
-
+# -3 ,-keyword
+'''
 def mysum1(x,y):
     return x+y
     
 b = mysum1(y=4,x=6)
 print(b)
+'''
+# -4 ,-give x and y default values of 0.
+'''
+def mysum1(x=0,y=0):
+    return x+y
+    
+b = mysum1()
+print(b)
+'''
