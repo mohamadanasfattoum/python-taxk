@@ -50,8 +50,12 @@ def mysum1(x=0,y=0):
 b = mysum1(7,8)
 print(b)
 '''
-# -6 ,-lambda
+# -6 ,-7 ,-lambda
 '''
 mysum = lambda x,y : x+y
 print(mysum(2,9))
+'''
+# -8
+'''
+Local variables are created when the function starts its execution and are lost when the function ends. Global variables, on the other hand, are created as execution of the program begins and are lost when the program is ended
 '''
