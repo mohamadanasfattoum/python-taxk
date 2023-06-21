@@ -18,3 +18,10 @@ mysum(5,10)
 mysum(5,50)
 print('----------')
 '''
+# -2
+def mysum1(x,y):
+    return x+y
+    
+b = mysum1(5,10)
+print(b)
+
