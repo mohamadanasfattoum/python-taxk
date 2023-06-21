@@ -42,3 +42,11 @@ def mysum1(x=0,y=0):
 b = mysum1()
 print(b)
 '''
+# -5
+'''
+def mysum1(x=0,y=0):
+    return x+y
+    
+b = mysum1(7,8)
+print(b)
+'''
