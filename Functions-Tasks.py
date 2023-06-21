@@ -50,3 +50,8 @@ def mysum1(x=0,y=0):
 b = mysum1(7,8)
 print(b)
 '''
+# -6 ,-lambda
+'''
+mysum = lambda x,y : x+y
+print(mysum(2,9))
+'''
