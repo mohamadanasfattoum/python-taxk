@@ -7,5 +7,13 @@ print('Three signals ``` used to write a comment')
 '''
 
 # -2
-
+'''
 print('mystero')
+'''
+'''
+# -3
+text = 'mystero'
+a=text.upper()
+print(a)
+'''
+
