@@ -25,7 +25,7 @@ print (result2)
             
 
 
-'''
+
 names=['ahmad','mahmoud','anas','ali']
 #names_list=[]
 length=[x for x in names if len(x) >3]
@@ -35,4 +35,3 @@ print(length)
 
 
 
-'''
